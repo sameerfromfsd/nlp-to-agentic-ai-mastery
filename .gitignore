@@ -1,0 +1,26 @@
+# Virtual Environment (Crucial: never push virtual environments to Git!)
+nlp_env/
+venv/
+env/
+ENV/
+*.env
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Obsidian App Local State (Keep notes, ignore machine-specific workspace cache)
+obsidian_vault/.obsidian/workspace*
+obsidian_vault/.obsidian/cache*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
